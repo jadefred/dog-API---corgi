@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doggy api - Corgi Photos</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&family=Shrikhand&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <h1>Hello Corgi</h1>
+
+    <div class='makeItFlex'>
+        <!--click to have corgi photo, in sequence-->
+        <div>
+            <div id="singleCorgiPhoto"></div>
+            <div id='btn-div'>
+                <button id='btn'>Show me the corgi one by one </button>
+            </div>
+        </div>
+
+        <!--click to have random corgi photo-->
+        <div>
+            <div id="randomCorgiPhoto"></div>
+            <div id="btn-container-random">
+                <button id="btn-random">I feel Luck! Give me the cutest corgi photo</button>
+            </div>
+        </div>
+    </div>
+    <!--show all photos of corgi-->
+
+    <h2>Flush me with all corgis you have !</h2>
+    <div id='corgi-box'></div>
+
+    <!--all breed random photos-->
+    <div class="allBreedContainer">
+        <h2>Can I have other cuties as well?</h2>
+        <div id="otherBreed">
+            <img src="https://images.dog.ceo/breeds/terrier-cairn/n02096177_475.jpg">
+        </div>
+        <div id="btn-breed-container">
+            <button id="btn-other-breed">Click here to see other breed</button>
+        </div>
+    </div>
+    <script src='main.js'></script>
+</body>
+
+</html>

@@ -1,0 +1,159 @@
+html {
+  height: 100%;
+}
+
+body {
+  margin: auto;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 30px;
+  text-align: center;
+}
+
+.makeItFlex {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+  background-color: #f0f0f0;
+}
+
+/*corgi in sequence*/
+
+#singleCorgiPhoto img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#btn-div {
+  position: relative;
+  height: 80px;
+}
+#btn {
+  border: none;
+  padding: 1rem;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  margin-left: 33px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  font-size: 15px;
+  box-shadow: 0px 0px 19px 1px rgba(214, 214, 214, 0.82);
+}
+
+#btn:hover {
+  box-shadow: 0px 0px 19px 1px rgba(173, 173, 173, 0.82);
+}
+
+/* random corgi photo*/
+
+#randomCorgiPhoto {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
+#randomCorgiPhoto img {
+  display: block;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+#btn-container-random {
+  position: relative;
+  height: 80px;
+}
+
+#btn-random {
+  border: none;
+  padding: 1rem;
+  position: absolute;
+  bottom: 50%;
+  transform: translateY(50%);
+  margin-left: 10px;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 19px 1px rgba(214, 214, 214, 0.82);
+}
+
+#btn-random:hover {
+  box-shadow: 0px 0px 19px 1px rgba(173, 173, 173, 0.82);
+}
+
+/* all corgi photos */
+
+h2 {
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#corgi-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  width: 90%;
+  height: 100%;
+  margin: auto;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+#corgi-box img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+/*all breed random photos*/
+.allBreedContainer {
+  background-color: #f0f0f0;
+}
+
+#btn-breed-container {
+  position: relative;
+  height: 100px;
+  padding-top: 3rem;
+}
+
+#btn-other-breed {
+  font-size: 18px;
+  border: none;
+  padding: 1rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  background-color: white;
+  border-radius: 50px;
+  box-shadow: 0px 0px 19px 1px rgba(214, 214, 214, 0.82);
+}
+
+#btn-other-breed:hover {
+  box-shadow: 0px 0px 19px 1px rgba(173, 173, 173, 0.82);
+}
+
+#otherBreed img {
+  display: block;
+  margin: auto;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  border-radius: 20px;
+}
