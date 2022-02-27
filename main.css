@@ -157,3 +157,12 @@ h2 {
   object-fit: cover;
   border-radius: 20px;
 }
+
+/*dog API link*/
+a {
+  text-decoration: none;
+  position: absolute;
+  right: 1rem;
+  bottom: 1rem;
+  color: rgba(173, 173, 173, 1);
+}
